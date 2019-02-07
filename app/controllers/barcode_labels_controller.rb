@@ -26,10 +26,10 @@ class BarcodeLabelsController < ApplicationController
   private
 
   def generate_labels
-    @labels = (params[:numbers] || []).map do |_, number|
+    @labels = (params[:barcodes] || []).map do |_, barcode|
       BarcodeSheet::Label.new(
         prefix: params[:prefix],
-        number: number,
+        barcode: barcode,
         study: params[:study]
       )
     end

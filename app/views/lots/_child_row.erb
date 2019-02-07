@@ -1,5 +1,5 @@
 <tr id='<%= state %>_plate_<%= child.index %>'>
   <td class='plate_index'><%= child.index %></td>
   <td class='plate_barcode'><%= child.barcode %></td>
-  <td><input type='checkbox' id='selected[<%= child.id %>]' name='numbers[<%= child.number %>]' value='<%= child.number %>'/></td>
+  <td><input type='checkbox' id='selected[<%= child.id %>]' name='barcodes[<%= child.machine_barcode %>]' value='<%= child.machine_barcode %>'/></td>
 </tr>

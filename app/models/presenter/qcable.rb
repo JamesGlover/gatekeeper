@@ -26,6 +26,10 @@ class Presenter::Qcable
     @qcable.barcode.number.to_s
   end
 
+  def machine_barcode
+    @qcable.barcode.machine
+  end
+
   def uuid
     @qcable.uuid
   end

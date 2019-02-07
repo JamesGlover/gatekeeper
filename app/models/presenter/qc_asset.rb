@@ -33,6 +33,7 @@ class Presenter::QcAsset
   def barcode
     {
       'ean13' => @asset.barcode.ean13,
+      'machine' => @asset.barcode.machine,
       'prefix' => @asset.barcode.prefix,
       'number' => @asset.barcode.number
     }

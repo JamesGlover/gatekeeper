@@ -121,7 +121,7 @@
       study.name = 'study'
       number = document.createElement('input')
       number.value = this.asset.barcode.number;
-      number.name = 'numbers['+this.asset.barcode.number+']';
+      number.name = 'barcodes['+this.asset.barcode.machine+']';
       number.type = 'hidden';
       this.element.find('.barcode-printing-form').append(study).append(number);
       new BarcodePrinter(this.element.find('.barcode-printing-form'),this.asset.handle.printer,this.asset.barcode.prefix);

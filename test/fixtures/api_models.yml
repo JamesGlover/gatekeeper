@@ -237,6 +237,7 @@
       :barcode:
         :prefix: DN
         :number: '11'
+        :machine: 'DN11J'
       :state: created
       :stamp_bed: '8'
       :stamp_index: 8
@@ -250,6 +251,7 @@
         :prefix: NT
         :number: '37'
         :ean13: '3980000037732'
+        :machine: '3980000037732'
       :state: pending
       :stamp_bed: '8'
       :stamp_index: 8
@@ -263,6 +265,7 @@
         :prefix: NT
         :number: '38'
         :ean13: '3980000037733'
+        :machine: '3980000037733'
       :state: pending
       :stamp_bed: '8'
       :stamp_index: 8
@@ -277,6 +280,7 @@
         :prefix: DN
         :number: '1'
         :ean13: '122000000183'
+        :machine: DN1S
       :state: created
     :associations:
   '11111111-2222-3333-4444-300000000002':
@@ -284,6 +288,7 @@
       :barcode:
         :prefix: DN
         :number: '2'
+        :machine: DN2T
         :ean13: '122000000284'
       :state: created
     :associations:
@@ -292,6 +297,7 @@
       :barcode:
         :prefix: DN
         :number: '3'
+        :machine: DN3U
         :ean13: '1220000000385'
       :state: qc_in_progress
     :associations:
@@ -300,6 +306,7 @@
       :barcode:
         :prefix: DN
         :number: '4'
+        :machine: DN4V
         :ean13: '122000000486'
       :state: destroyed
     :associations:
@@ -308,6 +315,7 @@
       :barcode:
         :prefix: DN
         :number: '5'
+        :machine: DN5W
         :ean13: '122000000587'
       :state: failed
     :associations:
@@ -316,6 +324,7 @@
       :barcode:
         :prefix: DN
         :number: '6'
+        :machine: DN6A
         :ean13: '122000000665'
       :state: exhausted
     :associations:
@@ -324,6 +333,7 @@
       :barcode:
         :prefix: DN
         :number: '7'
+        :machine: DN7B
         :ean13: '122000000766'
       :state: passed
     :associations:
@@ -332,6 +342,7 @@
       :barcode:
         :prefix: DN
         :number: '8'
+        :machine: DN8C
         :ean13: '122000000867'
       :state: pending
     :associations:
@@ -342,6 +353,7 @@
       :barcode:
         :prefix: DN
         :number: '9'
+        :machine: DN9D
         :ean13: '122000000968'
       :state: pending
     :associations:
@@ -350,6 +362,7 @@
       :barcode:
         :prefix: DN
         :number: '10'
+        :machine: DN10I
         :ean13: '122000001073'
       :state: available
     :associations:
@@ -358,6 +371,7 @@
       :barcode:
         :prefix: DN
         :number: '11'
+        :machine: DN11J
         :ean13: '122000001174'
       :state: available
     :associations:
@@ -370,6 +384,7 @@
         :prefix: DN
         :number: '9000001'
         :ean13: '1229000001872'
+        :machine: DN9000001W
       :state: available
     :associations:
       :plate_purpose: '762f7930-d972-11e5-9400-44fb42fffe72'
@@ -382,6 +397,7 @@
         :prefix: DN
         :number: '4'
         :ean13: '1220000004863'
+        :machine: DN4V
       :state: available
     :associations:
       :plate_purpose: '6fe7d260-e1fc-11e5-9838-44fb42fffe72'
@@ -393,6 +409,7 @@
       :barcode:
         :prefix: DN
         :number: '8'
+        :machine: 'DN8C'
         :ean13: '122000000867'
       :state: passed
     :associations:
@@ -405,6 +422,7 @@
       :barcode:
         :prefix: DN
         :number: '36'
+        :machine: DN36S
         :ean13: '1220000036833'
       :state: pending
     :associations:
@@ -440,6 +458,7 @@
         :prefix: NT
         :number: '37'
         :ean13: '3980000037732'
+        :machine: '3980000037732'
       :state: pending
     :associations:
       :purpose: '541b5170-a3c8-11e3-a7e1-44fb42fffecc'

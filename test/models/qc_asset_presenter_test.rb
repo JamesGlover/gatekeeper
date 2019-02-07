@@ -23,7 +23,8 @@ class QcAssetPresenterTest < ActiveSupport::TestCase
                    'barcode' => {
                      'ean13' => '1220000036833',
                      'prefix' => 'DN',
-                     'number' => '36'
+                     'number' => '36',
+                     'machine' => 'DN36S'
                    },
                    'child_purposes' => [
                      ['Tag PCR-XP', '54088cc0-a3c8-11e3-a7e1-44fb42fffecc']
@@ -52,7 +53,8 @@ class QcAssetPresenterTest < ActiveSupport::TestCase
                    'barcode' => {
                      'ean13' => '122000000867',
                      'prefix' => 'DN',
-                     'number' => '8'
+                     'number' => '8',
+                     'machine' => 'DN8C'
                    },
                    'child_purposes' => [
                      ['Tag PCR', '53e6d3f0-a3c8-11e3-a7e1-44fb42fffecc']
@@ -81,7 +83,8 @@ class QcAssetPresenterTest < ActiveSupport::TestCase
                    'barcode' => {
                      'ean13' => '122000001174',
                      'prefix' => 'DN',
-                     'number' => '11'
+                     'number' => '11',
+                     'machine' => 'DN11J'
                    },
                    'child_purposes' => [
                      ['Tag PCR', '53e6d3f0-a3c8-11e3-a7e1-44fb42fffecc']
@@ -110,7 +113,8 @@ class QcAssetPresenterTest < ActiveSupport::TestCase
                    'barcode' => {
                      'ean13' => '1229000001872',
                      'prefix' => 'DN',
-                     'number' => '9000001'
+                     'number' => '9000001',
+                     'machine' => 'DN9000001W'
                    },
                    'child_purposes' => [
                      ['Tag PCR', '53e6d3f0-a3c8-11e3-a7e1-44fb42fffecc']
@@ -139,7 +143,8 @@ class QcAssetPresenterTest < ActiveSupport::TestCase
                    'barcode' => {
                      'ean13' => '1220000004863',
                      'prefix' => 'DN',
-                     'number' => '4'
+                     'number' => '4',
+                     'machine' => 'DN4V'
                    },
                    'child_purposes' => [['QA Plate', '411f8b70-e1fd-11e5-a20c-44fb42fffe72']],
                    'state' => 'available',
@@ -165,6 +170,7 @@ class QcAssetPresenterTest < ActiveSupport::TestCase
                    'purpose' => 'Tag MX',
                    'barcode' => {
                      'ean13' => '3980000037732',
+                     'machine' => '3980000037732',
                      'prefix' => 'NT',
                      'number' => '37'
                    },
